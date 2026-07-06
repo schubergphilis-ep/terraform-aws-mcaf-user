@@ -1,115 +1,81 @@
 # Changelog
 
-All notable changes to this project will automatically be documented in this file.
+All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## v1.0.0 - 2025-10-06
+---
 
-### What's Changed
+## [1.0.0](https://github.com/schubergphilis-ep/terraform-aws-mcaf-user/compare/v0.4.3...v1.0.0) (2025-10-06)
 
-#### 🚀 Features
 
-* feat!: Add region support (#35) @fatbasstard
+### ⚠ BREAKING CHANGES
 
-**Full Changelog**: https://github.com/schubergphilis/terraform-aws-mcaf-user/compare/v0.4.3...v1.0.0
+* Add region support ([#35](https://github.com/schubergphilis/terraform-aws-mcaf-user/pull/35))
 
-## v0.4.3 - 2025-03-06
+### 🚀 Features
 
-### What's Changed
+* Add region support ([#35](https://github.com/schubergphilis/terraform-aws-mcaf-user/pull/35)) ([d9b6ab2](https://github.com/schubergphilis-ep/terraform-aws-mcaf-user/commit/d9b6ab23c6e40f676125f522bd72c9b97af8eb39))
 
-#### 🐛 Bug Fixes
+## [0.4.3](https://github.com/schubergphilis-ep/terraform-aws-mcaf-user/compare/v0.4.2...v0.4.3) (2025-03-06)
 
-* fix: 'depends on resource attributes that cannot be determined until apply' error, by setting `create_policy = true` (#34) @stefanwb
 
-**Full Changelog**: https://github.com/schubergphilis/terraform-aws-mcaf-user/compare/v0.4.2...v0.4.3
+### 🐛 Fixes
 
-## v0.4.2 - 2025-02-24
+* 'depends on resource attributes that cannot be determined until apply' error, by setting `create_policy = true` ([#34](https://github.com/schubergphilis/terraform-aws-mcaf-user/pull/34)) ([9643853](https://github.com/schubergphilis-ep/terraform-aws-mcaf-user/commit/9643853ae3c4eab6faca61d8dd203a44d863ded7))
 
-### What's Changed
+## [0.4.2](https://github.com/schubergphilis-ep/terraform-aws-mcaf-user/compare/v0.4.1...v0.4.2) (2025-02-24)
 
-#### 🧺 Miscellaneous
+## [0.4.1](https://github.com/schubergphilis-ep/terraform-aws-mcaf-user/compare/v0.4.0...v0.4.1) (2024-12-03)
 
-* chore: remove moved blocks (#33) @noobnesz
+## [0.4.0](https://github.com/schubergphilis-ep/terraform-aws-mcaf-user/compare/v0.3.3...v0.4.0) (2023-08-04)
 
-**Full Changelog**: https://github.com/schubergphilis/terraform-aws-mcaf-user/compare/v0.4.1...v0.4.2
 
-## v0.4.1 - 2024-12-03
+### 🚀 Features
 
-### What's Changed
+* add a variable to be able to disable IAM access key creation ([#31](https://github.com/schubergphilis/terraform-aws-mcaf-user/pull/31)) ([b60be63](https://github.com/schubergphilis-ep/terraform-aws-mcaf-user/commit/b60be6340f45c98630c1d9c10139984bef0477e6))
 
-#### 🧺 Miscellaneous
+## [0.3.3](https://github.com/schubergphilis-ep/terraform-aws-mcaf-user/compare/v0.3.2...v0.3.3) (2023-03-20)
 
-* misc: Use `null` for `var.tags` (#32) @shoekstra
+## [0.3.2](https://github.com/schubergphilis-ep/terraform-aws-mcaf-user/compare/v0.3.1...v0.3.2) (2023-03-20)
 
-**Full Changelog**: https://github.com/schubergphilis/terraform-aws-mcaf-user/compare/v0.4.0...v0.5.0
+## [0.3.1](https://github.com/schubergphilis-ep/terraform-aws-mcaf-user/compare/v0.3.0...v0.3.1) (2023-03-20)
 
-## v0.4.0 - 2023-08-04
+## [0.3.0](https://github.com/schubergphilis-ep/terraform-aws-mcaf-user/compare/v0.2.0...v0.3.0) (2023-02-28)
 
-### What's Changed
 
-#### 🚀 Features
+### 🚀 Features
 
-- feat: add a variable to be able to disable IAM access key creation (#31) @marwinbaumannsbp
+* enhancement: Improve code, improved terraform workflow, add release workflow and changelog workflow ([#21](https://github.com/schubergphilis/terraform-aws-mcaf-user/pull/21)) ([6f20375](https://github.com/schubergphilis-ep/terraform-aws-mcaf-user/commit/6f20375be0b44336f82be09f34f969c0f689d2aa))
 
-**Full Changelog**: https://github.com/schubergphilis/terraform-aws-mcaf-user/compare/v0.3.3...v0.4.0
+## [0.2.0](https://github.com/schubergphilis-ep/terraform-aws-mcaf-user/compare/v0.1.13...v0.2.0) (2023-02-28)
 
-## v0.3.3 - 2023-03-20
+## [0.1.13](https://github.com/schubergphilis-ep/terraform-aws-mcaf-user/compare/v0.1.12...v0.1.13) (2022-01-27)
 
-### What's Changed
+## [0.1.12](https://github.com/schubergphilis-ep/terraform-aws-mcaf-user/compare/v0.1.11...v0.1.12) (2021-10-20)
 
-#### 📖 Documentation
+## [0.1.11](https://github.com/schubergphilis-ep/terraform-aws-mcaf-user/compare/v0.1.9...v0.1.11) (2021-09-16)
 
-- docs: add support for workflow dispatch (#27) @marwinbaumannsbp
-- docs: update update-changelog github actions (#26) @marwinbaumannsbp
+## [0.1.9](https://github.com/schubergphilis-ep/terraform-aws-mcaf-user/compare/v0.1.10...v0.1.9) (2021-09-15)
 
-**Full Changelog**: https://github.com/schubergphilis/terraform-aws-mcaf-user/compare/v0.3.2...v0.3.3
+## [0.1.10](https://github.com/schubergphilis-ep/terraform-aws-mcaf-user/compare/v0.1.8...v0.1.10) (2021-09-15)
 
-## v0.3.2 - 2023-03-20
+## [0.1.8](https://github.com/schubergphilis-ep/terraform-aws-mcaf-user/compare/v0.1.7...v0.1.8) (2021-07-13)
 
-### What's Changed
+## [0.1.7](https://github.com/schubergphilis-ep/terraform-aws-mcaf-user/compare/v0.1.6...v0.1.7) (2021-04-15)
 
-#### 📖 Documentation
+## [0.1.6](https://github.com/schubergphilis-ep/terraform-aws-mcaf-user/compare/v0.1.5...v0.1.6) (2020-08-13)
 
-- docs: centralize github actions and improve readme (#24) @marwinbaumannsbp
+## [0.1.5](https://github.com/schubergphilis-ep/terraform-aws-mcaf-user/compare/v0.1.4...v0.1.5) (2020-08-11)
 
-**Full Changelog**: https://github.com/schubergphilis/terraform-aws-mcaf-user/compare/v0.3.1...v0.3.2
+## [0.1.4](https://github.com/schubergphilis-ep/terraform-aws-mcaf-user/compare/v0.1.3...v0.1.4) (2020-04-17)
 
-## v0.3.1 - 2023-03-20
+## [0.1.3](https://github.com/schubergphilis-ep/terraform-aws-mcaf-user/compare/v0.1.2...v0.1.3) (2019-09-13)
 
-### What's Changed
+## [0.1.2](https://github.com/schubergphilis-ep/terraform-aws-mcaf-user/compare/v0.1.1...v0.1.2) (2019-08-26)
 
-#### 📖 Documentation
+## [0.1.1](https://github.com/schubergphilis-ep/terraform-aws-mcaf-user/compare/v0.1.0...v0.1.1) (2019-07-26)
 
-- docs: update contributer guidelines and update workflows ensure update changelog works with strict branch protection (#23) @marwinbaumannsbp
+## 0.1.0 (2019-07-11)
 
-**Full Changelog**: https://github.com/schubergphilis/terraform-aws-mcaf-user/compare/v0.3.0...v0.3.1
-
-## v0.3.0 - 2023-02-28
-
-### What's Changed
-
-#### 🚀 Features
-
-- enhancement: Improve code (add variable force_destroy, solve linting errors) and improved workflows (#21) @marwinbaumannsbp
-
-#### 📖 Documentation
-
-- enhancement: Add examples, expand README, add CHANGELOG, add CONTRIBUTING (#21) @marwinbaumannsbp
-
-#### 🧺 Miscellaneous
-
-- add release drafter config (#22) @marwinbaumannsbp
-
-**Full Changelog**: https://github.com/schubergphilis/terraform-aws-mcaf-user/compare/v0.2.0...v0.3.0
-
-## v0.2.0 - 2023-02-28
-
-### What's Changed
-
-#### 🚀 Features
-
-- Feat: Adding permission boundaries to iam_user (#20) @svashisht03
-
-**Full Changelog**: https://github.com/schubergphilis/terraform-aws-mcaf-user/compare/v0.1.13...v0.2.0
